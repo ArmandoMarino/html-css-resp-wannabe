@@ -128,7 +128,7 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* DESKTOP & TABLET */
+/* *** DESKTOP & TABLET *** */
 
  @media screen and (max-width: 1200px) {
     .container{
@@ -137,9 +137,15 @@ img {
     
  }
 
- /* MOBILE */
+ /* *** MOBILE *** */
 
  @media screen and (max-width: 576px) {
+
+    /* LESSONS */
+    .lessons{
+        padding-bottom: 50px;
+    }
+
     h2{
         margin: 0;
     }
@@ -154,11 +160,49 @@ img {
         margin-top: 50px;
     }
     
-    .lessons .card{
-        
+    /* STEPS */
+    .steps{
+       margin: 0;
+       padding-top: 50px;
+       padding-bottom: 0;
     }
+    .steps .row{
+        display: inline-block;
+        margin-top: 50px;
+    }
+
+    .steps .col{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+     /* WHY US */
+     .why-us{
+        margin: 0;
+        padding-top: 50px;
+        padding-bottom: 0;
+     }
+     .why-us .row{
+        flex-direction: column;
+        margin-top: 50px;
+     }
+ 
+     .why-us .col-left{
+        width: 100%;
+        margin-bottom: 50px;
+     }
+
+     .why-us .col-right{
+        width: 100%;
+        margin-bottom: 50px;
+     }
+
+
 }
     
+
+
+
  
 
 
