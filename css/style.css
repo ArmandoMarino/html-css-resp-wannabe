@@ -127,3 +127,16 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* DESKTOP */
+
+ @media screen and (max-width: 1200px) {
+    .container{
+    max-width: 100%;
+}
+    
+ }
+
+
+ 
+
