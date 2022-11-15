@@ -128,7 +128,7 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* DESKTOP */
+/* DESKTOP & TABLET */
 
  @media screen and (max-width: 1200px) {
     .container{
@@ -137,6 +137,29 @@ img {
     
  }
 
+ /* MOBILE */
 
+ @media screen and (max-width: 576px) {
+    h2{
+        margin: 0;
+    }
+
+    .lessons div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lessons .col{
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    .lessons .card{
+        
+    }
+}
+    
  
+
+
 
